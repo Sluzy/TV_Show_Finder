@@ -1,0 +1,28 @@
+/* .searchBar {} */
+
+.searchForm {
+    text-align: center;
+
+}
+
+
+.listItem {
+    background-color: blueviolet;
+
+    height: 100px;
+    width: 100%;
+
+    border: 1px solid black;
+}
+
+.listItem:nth-of-type(even) {
+    background-color: burlywood;
+}
+
+/* .listImg {}
+
+.listTitle {}
+
+.listLanguage {}
+
+.listRating {} */
