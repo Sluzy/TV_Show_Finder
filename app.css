@@ -1,28 +1,22 @@
-/* .searchBar {} */
-
-.searchForm {
-    text-align: center;
-
+/* Image hover zoom */
+.image-container {
+    overflow: hidden;
 }
 
-
-.listItem {
-    background-color: blueviolet;
-
-    height: 100px;
-    width: 100%;
-
-    border: 1px solid black;
+.image-container img {
+    transition: transform 0.3s ease-in-out;
 }
 
-.listItem:nth-of-type(even) {
-    background-color: burlywood;
+.image-container:hover img {
+    transform: scale(1.2);
+    /* Adjust the scaling factor (1.2 means 120% zoom) */
 }
 
-/* .listImg {}
+/* Bootstrap alterations */
 
-.listTitle {}
-
-.listLanguage {}
-
-.listRating {} */
+/* remove form glow */
+.form-control {
+    box-shadow: none;
+    -webkit-box-shadow: none !important;
+    outline: -webkit-focus-ring-color auto 0px !important;
+}
